@@ -23,7 +23,7 @@ const USER = {
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5174", // ou "*" en dev
+    origin: "http://localhost:5173", // ou "*" en dev
     methods: ["POST", "GET", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // si tu envoies des cookies
