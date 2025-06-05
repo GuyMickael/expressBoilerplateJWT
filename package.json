@@ -1,8 +1,14 @@
 {
+  "name": "express-jwt-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node jwt-express-server.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.0"
   }
 }
